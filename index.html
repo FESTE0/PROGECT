@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Планировщик задач</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Планировщик задач</h1>
+    </header>
+    <section class="task-input">
+      <input type="text" id="taskInput" placeholder="Добавить новую задачу">
+      <button id="addTaskButton">Добавить</button>
+    </section>
+    <section class="task-list">
+      <h2>Мои задачи</h2>
+      <ul id="taskList"></ul>
+    </section>
+    <section class="filters">
+      <button id="allTasks">Все</button>
+      <button id="completedTasks">Выполненные</button>
+      <button id="pendingTasks">Невыполненные</button>
+    </section>
+  </div>
+  <script src="JS/script.js"></script>
+</body>
+</html>
