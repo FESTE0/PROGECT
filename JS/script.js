@@ -70,4 +70,12 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   });
+window.onload = function(){
+    let audio = document.getElementById('background-music');
+    document.body.addEventListener('click',function(){
+        audio.play().catch(error => {
+            console.log('rr'+ error);
+        })
+                           })
+                                   }
   
